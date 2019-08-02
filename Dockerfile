@@ -47,7 +47,7 @@ RUN wget -q -O unifi-video.deb https://dl.ubnt.com/firmwares/ufv/v${version}/uni
 VOLUME ["/var/lib/unifi-video"]
 
 # Video storage volume
-VOLUME ["/var/lib/unifi-video/videos"]
+# VOLUME ["/var/lib/unifi-video/videos"]
 
 # RTMP, RTMPS & RTSP via the controller
 EXPOSE 1935/tcp 7444/tcp 7447/tcp
